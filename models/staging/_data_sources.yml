@@ -1,0 +1,19 @@
+version: 2
+sources:
+  - name: music
+    database: Music
+    schema: dwh_training
+
+    tables:
+      - name: album
+        description: This is a raw table that has data on music albums
+      - name: artist
+      - name: customer
+      - name: employee
+      - name: genre
+      - name: invoice
+      - name: invoiceline
+      - name: mediatype
+      - name: playlist
+      - name: playlisttrack
+      - name: track
