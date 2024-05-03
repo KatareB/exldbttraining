@@ -1,0 +1,5 @@
+models:
+  - name: dim_music_playlists
+    description: XYZ
+  - name: dim_music_tracks
+  - name: fct_music_sales

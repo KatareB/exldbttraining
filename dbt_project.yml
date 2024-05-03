@@ -37,6 +37,12 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   exldbttraining:
-    # Applies to all files under models/example/
+    # Applies to all files under models/staging/
     staging:
       +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: table
+    metrics:
+      +materialized: view 
